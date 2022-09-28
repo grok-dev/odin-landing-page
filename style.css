@@ -56,6 +56,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  gap: 10px;
 }
 
 .hero-text h2 {
@@ -79,5 +80,6 @@ header {
   color: var(--white);
 }
 
-.hero-image {
+.hero-image img {
+  height: 100%;
 }
