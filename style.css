@@ -155,3 +155,10 @@ header {
 #cta-button {
   border: 2px solid var(--white);
 }
+
+footer {
+  background-color: var(--dark-bg);
+  text-align: center;
+  color: var(--white);
+  padding: 2rem;
+}
