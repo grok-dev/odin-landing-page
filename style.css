@@ -118,3 +118,18 @@ header {
   font-size: 0.8rem;
   opacity: 0.6;
 }
+
+.quote-container {
+  background-color: var(--grey);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+}
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
