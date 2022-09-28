@@ -18,7 +18,7 @@ html {
 header {
   background-color: var(--dark-bg);
   display: flex;
-  padding: 5px 5rem;
+  padding: 5px 10rem;
   justify-content: space-between;
 }
 .header-logo {
@@ -42,12 +42,41 @@ header {
 /* Hero */
 
 .hero-container {
+  background: var(--dark-bg);
 }
 
 .hero-contents {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 10rem;
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: var(--grey);
+}
+
+.sign-up-button {
+  cursor: pointer;
+  width: fit-content;
+  padding: 5px 20px;
+  background-color: var(--blue);
+  border: 0;
+  border-radius: 7px;
+  color: var(--white);
 }
 
 .hero-image {
